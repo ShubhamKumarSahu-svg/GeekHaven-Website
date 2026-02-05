@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --font-mono: 'VT323', monospace;
+
+  /* Fallback Defaults (Gruvbox Dark) */
+  --background: #282828;
+  --foreground: #ebdbb2;
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16286;
+  --cyan: #689d6a;
+  --cursorColor: #ebdbb2;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-size: 22px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Dynamic Utility Classes */
+.bg-gruvbox-bg {
+  background-color: var(--background) !important;
+}
+.text-gruvbox-fg {
+  color: var(--foreground) !important;
+}
+
+.text-gruvbox-red {
+  color: var(--red) !important;
+}
+.bg-gruvbox-red {
+  background-color: var(--red) !important;
+}
+
+.text-gruvbox-green {
+  color: var(--green) !important;
+}
+.bg-gruvbox-green {
+  background-color: var(--green) !important;
+}
+
+.text-gruvbox-yellow {
+  color: var(--yellow) !important;
+}
+.bg-gruvbox-yellow {
+  background-color: var(--yellow) !important;
+}
+
+.text-gruvbox-blue {
+  color: var(--blue) !important;
+}
+.bg-gruvbox-blue {
+  background-color: var(--blue) !important;
+}
+
+.text-gruvbox-purple {
+  color: var(--purple) !important;
+}
+.bg-gruvbox-purple {
+  background-color: var(--purple) !important;
+}
+
+.caret-gruvbox-green {
+  caret-color: var(--green) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--foreground);
+  border: 2px solid var(--background);
+  opacity: 0.5;
+}
+
+/* Utils */
+.font-mono {
+  font-family: var(--font-mono);
+  line-height: 1.1;
+}
+button:focus-visible,
+input:focus-visible {
+  outline: none;
+}
+img {
+  image-rendering: pixelated;
+}
+
+.animate-cursor-blink {
+  animation: blink 1s step-end infinite;
+  color: var(--cursorColor);
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

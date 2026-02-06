@@ -14,7 +14,6 @@ const MemberCard = ({
   image: string;
 }) => (
   <div className="relative size-full overflow-hidden rounded-md bg-black border border-white/20 group">
-    {/* Image with hover zoom */}
     <img
       src={image}
       alt={name}
@@ -44,7 +43,6 @@ const Team = () => {
           containerClass="!text-blue-50 mb-20"
         />
 
-        {/* Coordinators Grid */}
         <div className="mb-16">
           <h2 className="font-general text-sm uppercase text-blue-50 mb-5 tracking-widest">
             Coordinators
@@ -65,7 +63,6 @@ const Team = () => {
           </div>
         </div>
 
-        {/* Members Grid */}
         <div>
           <h2 className="font-general text-sm uppercase text-blue-50 mb-5 tracking-widest">
             Core Team

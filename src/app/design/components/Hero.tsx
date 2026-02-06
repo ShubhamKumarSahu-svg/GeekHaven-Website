@@ -28,7 +28,6 @@ const Hero = () => {
     }
   }, [loadedVideos]);
 
-  // Safety Timeout
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -52,7 +51,6 @@ const Hero = () => {
           height: '100%',
           duration: 1,
           ease: 'power1.inOut',
-          // FIX: Added curly braces to avoid returning the Promise
           onStart: () => {
             nextVdRef.current?.play();
           },
@@ -159,7 +157,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Scroll Down Animation */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2 opacity-60">
           <span className="font-general text-xs uppercase text-blue-50 tracking-widest">
             Scroll

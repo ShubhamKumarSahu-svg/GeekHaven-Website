@@ -74,7 +74,6 @@ const Philosophy = () => {
               </div>
             </div>
 
-            {/* SVG Filter for rounded corners */}
             <svg
               className="invisible absolute size-0"
               xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +102,6 @@ const Philosophy = () => {
           </div>
         </div>
 
-        {/* --- NEW CONTENT SECTION START --- */}
         <div className="mt-[-100px] md:mt-[-50px] relative z-10 w-full px-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto border-t border-white/10 pt-16">
             {/* Value 1 */}
@@ -143,7 +141,6 @@ const Philosophy = () => {
             </div>
           </div>
         </div>
-        {/* --- NEW CONTENT SECTION END --- */}
       </div>
     </div>
   );

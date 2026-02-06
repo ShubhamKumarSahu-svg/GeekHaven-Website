@@ -9,7 +9,8 @@ export const designCoordinators: Member[] = [
     email: 'aditya@geekhaven.com',
     github: 'adityaraj',
     linkedin: 'aditya-raj',
-    image: '/design/img/member1.webp',
+    // Using dummy photo as requested
+    image: 'https://placehold.co/400',
     bio: 'Visionary designer with a passion for 3D aesthetics and motion graphics. Leading the charge to redefine the visual identity of GeekHaven.',
   },
   {
@@ -20,7 +21,7 @@ export const designCoordinators: Member[] = [
     email: 'sneha@geekhaven.com',
     github: 'snehagupta',
     linkedin: 'sneha-gupta',
-    image: '/design/img/member2.webp',
+    image: 'https://placehold.co/400',
     bio: 'UI/UX specialist focused on creating intuitive and immersive user experiences. Expert in design systems and prototyping.',
   },
 ];
@@ -34,7 +35,7 @@ export const designMembers: Member[] = [
     email: 'rohan@geekhaven.com',
     github: 'rohan',
     linkedin: 'rohan-des',
-    image: '/design/img/member3.webp',
+    image: 'https://placehold.co/400',
     bio: 'Master of typography and branding. Ensures every pixel aligns with our core identity.',
   },
   {
@@ -45,7 +46,7 @@ export const designMembers: Member[] = [
     email: 'priya@geekhaven.com',
     github: 'priya3d',
     linkedin: 'priya-art',
-    image: '/design/img/member4.webp',
+    image: 'https://placehold.co/400',
     bio: 'Blender wizard creating surreal environments and assets for our game development projects.',
   },
   {
@@ -56,7 +57,7 @@ export const designMembers: Member[] = [
     email: 'amit@geekhaven.com',
     github: 'amitui',
     linkedin: 'amit-ux',
-    image: '/design/img/member5.webp',
+    image: 'https://placehold.co/400',
     bio: 'Focuses on accessibility and interaction design. Building the next generation of web interfaces.',
   },
   {
@@ -67,7 +68,7 @@ export const designMembers: Member[] = [
     email: 'kavya@geekhaven.com',
     github: 'kavyaart',
     linkedin: 'kavya-draws',
-    image: '/design/img/member6.webp',
+    image: 'https://placehold.co/400',
     bio: 'Digital artist bringing concepts to life through vibrant illustrations and character design.',
   },
 ];

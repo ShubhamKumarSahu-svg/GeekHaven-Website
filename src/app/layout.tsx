@@ -9,19 +9,26 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'GeekHaven Terminal | IIIT Allahabad',
-  description: 'Web-based terminal interface for GeekHaven Technical Society',
+  title: 'GeekHaven Website | IIIT Allahabad',
+  description:
+    'Official interactive website for GeekHaven Technical Society at IIIT Allahabad, showcasing all wings, coordinators, members, and projects.',
   keywords: [
     'GeekHaven',
     'IIIT Allahabad',
-    'Terminal',
     'Technical Society',
     'CyberSec',
+    'GameDev',
+    'AI/ML',
+    'Design',
+    'Web Development',
+    'FOSS',
+    'Blockchain',
   ],
   authors: [{ name: 'GeekHaven' }],
   openGraph: {
-    title: 'GeekHaven Terminal',
-    description: 'Interactive terminal for GeekHaven Technical Society',
+    title: 'GeekHaven Technical Society',
+    description:
+      'Explore all GeekHaven wings with interactive experiences, member showcases, and project highlights.',
     type: 'website',
   },
 };
@@ -34,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${jetbrainsMono.variable} font-mono antialiased`}>
         {children}
